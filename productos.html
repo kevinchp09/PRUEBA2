@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos</title>
+    <link rel="stylesheet" href="/CSS/style.css">
+    <link rel="stylesheet" href="/CSS/prod.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">ZapStyle </div>
+        <div class="bars">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <nav class="nav-bar">
+            <ul>
+                <li><a href="/HTML/index.html" class="active">Inicio</a></li>
+                <li><a href="/HTML/productos.html">Productos</a></li>
+                <li><a href="/HTML/contactenos.html">Contactenos</a></li>
+                <li><a href="/HTML/login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="cuerpo">
+        <div class="container-title">zapatos</div>
+        <main>
+            <div class="container-img">
+                <img src="/img/f2.png" style="border-radius: 25px;">
+            </div>
+            <div class="container-info-product">
+                <div class="container-price">
+                    <span>$130.000</span>
+                    <ion-icon name="chevron-forward-outline"></ion-icon>
+                </div>
+
+                <div class="container-details-product">
+                    <div class="form-group">
+                        <label for="colour">Color</label>
+                        <select name="colour" id="colour">
+                            <option disabled selected value="">Escoge una opcion</option>
+                            <option value="negro">Negro</option>
+                            <option value="beige">Beige</option>
+                            <option value="rojo">Rojo</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="size">Talla</label>
+                        <select name="size" id="size">
+                            <option disabled selected value="">Escoge una opcion</option>
+                            <option value="42">42</option>
+                            <option value="40">40</option>
+                            <option value="38">38</option>
+                            <option value="35">35</option>
+                            <option value="32">32</option>
+                        
+                        </select>
+                    </div>
+                    <button class="btn-clean">Limpiar</button>
+                </div>
+                    <div class="container-add-cart">
+                        <div class="container-quantity">
+                            <input type="number" placeholder="1" 
+                            value="1" min="1" class="input-quantity"/>
+                            <div class="btn-increment-decrement">
+                                <ion-icon name="chevron-up-outline" id="increment"></ion-icon>
+                                <ion-icon name="chevron-down-outline" id="decrement"></ion-icon>
+                            </div>
+
+                        </div>
+                        <button class="btn-add-to-cart">
+                            <ion-icon name="add-outline"></ion-icon>
+                            Añadir al carrito
+                        </button>
+                    </div>
+                    <div class="container-description ">
+                        <div class="title-description">
+                            <h4>Descripcion</h4>
+                            <ion-icon name="chevron-down-outline"></ion-icon>
+                        </div>
+                        <div class="text-description hidden">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing 
+                                elit. Incidunt a deleniti possimus 
+                                repellendus autem obcaecati. Omnis quisquam veniam
+                            eum. Ut.</p>
+                        </div>
+                    </div>
+                    <div class="container-additional-information">
+                        <div class="title-additional-information">
+                            <h4>Informacion Adicional</h4>
+                            <ion-icon name="chevron-down-outline"></ion-icon>
+
+                        </div>
+                        <div class="text-additional-information hidden">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Itaque veritatis asperiores quae cumque
+                            , laudantium doloribus. Ducimus at ad vel consequuntur voluptate nobis nam repellendus animi, veniam commodi, expedita est nulla.</p>
+                        </div>
+                    </div>
+                    
+            <div class="container-reviews">
+                <div class="title-reviews">
+                    <h4>Reseñas</h4>
+                    <ion-icon name="chevron-down-outline"></ion-icon>
+
+                </div>
+                <div class="text-reviews hidden">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing
+                    elit. Itaque veritatis asperiores quae cumque
+                    , laudantium doloribus. Ducimus at ad vel consequuntur voluptate nobis nam repellendus animi, veniam commodi, expedita est nulla.</p>
+                </div>
+            </div>
+            
+            <div class="container-social">
+                <span> Compartir</span>
+                <div class="container-buttons-social">
+                    <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-pinterest"></ion-icon></a>
+                
+                </div>
+            </div>
+        </div>
+
+        </main>
+        <section class="special-offers">
+            <h2>Productos Relacionados </h2>
+            <!-- Aquí podrías añadir productos destacados o en oferta -->
+            <div class="offer">
+                <img src="/img/f4.jpg" alt="Zapatilla 1">
+                <p>Jumpman MVP </p>
+                <p class="price">$120.000</p>
+            </div>
+            <div class="offer">
+                <img src="/img/f5.jpg" alt="Zapatilla 2">
+                <p>JORDAN RETRO LOW </p>
+                <p class="price">$120.000</p>
+            </div>
+            <div class="offer">
+                <img src="/img/f3.jpg" alt="Zapatilla 2">
+                <p>NIKE DUNK LOW LEGION PINE
+                </p>
+                <p class="price">$120.000</p>
+            </div>
+        </section>
+    
+    </div>
+        <footer class="footer" >
+            <p>&copy; 2024 ZapStyle. Todos los derechos reservados.</p>
+        </footer>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="/JS/produc.js"></script>
+    <script src="/JS/scrip.js"></script>
+</body>
+</html>

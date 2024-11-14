@@ -1,0 +1,125 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f0f5; /* Fondo más claro para mejor contraste */
+    color: #333;
+}
+
+.login-container {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 2px solid #ddd;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+.login-container h1 {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.login-container label {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.login-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.login-container button {
+    width: 100%;
+    padding: 12px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;    
+    font-weight: 600;
+    transition: background-color 0.3s;
+}
+
+.login-container button:hover {
+    background-color: #000000;
+}
+
+/* Estilos para botones de registro y login */
+.register-btn, .login-btn {
+    padding: 12px;
+    font-size: 16px;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.register-btn {
+    background-color: #333;
+    color: white;
+}
+
+.register-btn:hover {
+    background-color: #555;
+}
+
+/* Estilos de tabla de usuarios */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+    text-align: center;
+    padding: 10px;
+}
+
+th {
+    background-color: #000000;
+    color: white;
+    padding: 12px;
+    font-size: 14px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+td {
+    font-size: 13px;
+    padding: 8px;
+}
+
+/* Mensajes de éxito y error */
+.ok {
+    color: #000000;
+    background-color: #d4edda;
+    border: 1px solid #c3e6cb;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.mal {
+    color: #721c24;
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 15px;
+}
